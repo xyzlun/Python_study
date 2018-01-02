@@ -1,0 +1,32 @@
+<application>
+  <component name="PyTestFrameworkService">
+    <option name="SDK_TO_PYTEST">
+      <map>
+        <entry key="C:\Python27\python.exe" value="true" />
+      </map>
+    </option>
+    <option name="SDK_TO_NOSETEST">
+      <map>
+        <entry key="C:\Python27\python.exe" value="false" />
+      </map>
+    </option>
+    <option name="SDK_TO_TRIALTEST">
+      <map>
+        <entry key="C:\Python27\python.exe" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnApplicationSettings">
+    <option name="myCheckoutURLs">
+      <list>
+        <option value="https://172.16.114.16/svn/分研发资料库" />
+      </list>
+    </option>
+    <option name="myTypedURLs">
+      <list>
+        <option value="https://172.16.114.16/svn/分研发资料库" />
+      </list>
+    </option>
+    <option name="mySvnCommandLine" value="D:\工具软件\SVN\bin\svn.exe" />
+  </component>
+</application>
