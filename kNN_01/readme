@@ -1,0 +1,8 @@
+#1 定义classcount为一个字典 "label"=num
+#2 统计label在class中出现的次数，初始为0,若循环到出现过的label，则该label个数加1
+#3 classcount.iteritems使classcount中的对象成为可迭代对象，operator.itemgetter(1)为选operator中的可迭代对象的第1个域值（第0个为label）reverse=True为降序
+#4 返回排序最靠前的label名
+#5 对arrayOLines中的每一行
+#6 删除该行开头结尾处的所有\n,\t,\r
+#7 在行中以\t分割行，形成listFromLine，为一个list
+#8 returnMat中的第index行的元素为listFromLine的元素
