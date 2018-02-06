@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'TestModel',
 ]
 
 MIDDLEWARE = [
@@ -76,10 +77,10 @@ WSGI_APPLICATION = 'HelloWorld.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': 'test',  # 或 MySQL57
-        'USER': 'root',
-        'PASSWORD': 'password',
+        'ENGINE': 'django.db.backends.sqlite3', # 或mysql.connector.django
+        'NAME': 'test',  # 数据库名
+        'USER': 'test',  # 设置用户名
+        'PASSWORD': 'test123',  # 设置用户密码
         'HOST': 'localhost',
         'PORT': '3306',
     }
