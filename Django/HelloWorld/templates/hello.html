@@ -1,11 +1,17 @@
-<!--<!DOCTYPE html>-->
-<!--<html lang="en">-->
-<!--<head>-->
-    <!--<meta charset="UTF-8">-->
-    <!--<title>Title</title>-->
-<!--</head>-->
-<!--<body>-->
-<!--<h1>{{ hello }}</h1>-->
-<!--</body>-->
-<!--</html>-->
-<h1>{{ hello }}</h1>
+{% extends "base.html" %}
+
+{% block mainbody %}
+    <p> 继承了 base.html 文件 </p>
+{% endblock %}
+<!--<u1>-->
+    <!--{# 这是一个注释 #}-->
+    <!--{% for athlete in athlete_list reversed %}-->
+        <!--<li>-->
+            <!--{{ athlete|first|upper }}+{{ athlete|length}}-->
+            <!--<button> add {{athlete}} </button>-->
+        <!--</li>-->
+
+    <!--{% endfor %}-->
+    <!--{#包含其他模板中的内容#}-->
+    <!--{% include "nav.html" %}-->
+<!--</u1>-->

@@ -8,4 +8,5 @@ from django.shortcuts import render
 def hello(request):
     context = {}
     context['hello'] = 'Hello World !'
+    context['athlete_list'] = ['a','b','c']
     return render(request, 'hello.html', context)
