@@ -10,3 +10,4 @@ def hello(request):
     context['hello'] = 'Hello World !'
     context['athlete_list'] = ['a','b','c']
     return render(request, 'hello.html', context)
+

@@ -19,5 +19,9 @@ from . import view,testdb
 
 urlpatterns = [
     url(r'^hello$', view.hello),
-    url(r'^testdb$',testdb.testdb),
+    #url(r'^testdb$',testdb.testdb),
+    url(r'^testdb$',testdb.testdb_add),
+    #url(r'^testdb$', testdb.testdb_update),
+    #url(r'^testdb$', testdb.testdb_del),
+
 ]
